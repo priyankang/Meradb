@@ -1,0 +1,12 @@
+import meradb
+db = meradb.load("table.db")
+#db.set("name","rani")
+# db.set("class",10)
+#db.set("adress","Bihar")
+db.get("name")
+db.get_all()
+db.rem("adress")
+db.exists("name")
+db.total_key("key")
+db.del_db("key")
+db.dump()
